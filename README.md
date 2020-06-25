@@ -1,7 +1,7 @@
 # Phison PS2303 (PS2251-03) framework
 
 This project's goal is to turn PS2303-based USB flash drive into a cheap USB 3.0 development platform (i.e. fast USB 3.0 to FPGA bridge).
-Check [project's wiki](https://bitbucket.org/flowswitch/phison/wiki) for more information.
+Check [project's wiki](https://github.com/flowswitch/phison/wiki) for more information.
 
 ## Required build tools
 
@@ -10,7 +10,7 @@ Check [project's wiki](https://bitbucket.org/flowswitch/phison/wiki) for more in
 
 ## Build
 
-Build [PyScsi](https://bitbucket.org/flowswitch/pyscsi) (or get [prebuilt Win32 version](https://bitbucket.org/flowswitch/pyscsi/downloads/PyScsi_win32.zip)).  
+Build [PyScsi](https://bitbucket.org/flowswitch/pyscsi) (or get [prebuilt Win32 version](https://github.com/flowswitch/pyscsi/downloads/PyScsi_win32.zip)).  
 Place PyScsi.dll into host/ directory.  
 Build test.btpram in mcu/ (execute 'scons' there)
 

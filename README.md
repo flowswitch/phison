@@ -10,7 +10,7 @@ Check [project's wiki](https://github.com/flowswitch/phison/wiki) for more infor
 
 ## Build
 
-Build [PyScsi](https://bitbucket.org/flowswitch/pyscsi) (or get [prebuilt Win32 version](https://github.com/flowswitch/pyscsi/downloads/PyScsi_win32.zip)).  
+Build [PyScsi](https://github.com/flowswitch/pyscsi) (or get [prebuilt Win32 version](https://github.com/flowswitch/pyscsi/releases/download/v1/PyScsi_win32.zip)).  
 Place PyScsi.dll into host/ directory.  
 Build test.btpram in mcu/ (execute 'scons' there)
 
